@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #111;
+	background-image: url(img/blure.jpg);
+	background-size: cover;
+}
+.calendar
+{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: #fff;
+	text-align: center;
+	border-radius: 8px;
+	overflow: hidden;
+	-webkit-box-reflect: below 1px linear-gradient(transparent, transparent,#0004);
+	transform: rotate(-20deg) skewY(10deg);
+}
+.calendar #monthName
+{
+	position: relative;
+	padding: 5px 10px;
+	padding-top: 10px;
+	background: #ff6331;
+	color: #fff;
+	font-size: 60px;
+	font-weight: 700;
+}
+.calendar #dayName
+{
+	margin-top: 20px;
+	font-size: 40px;
+	font-weight: 300;
+	color: #999;
+}
+.calendar #dayNumber
+{
+	margin-top: 20px;
+	line-height: 1em;
+	font-size: 150px;
+	font-weight: 700;
+	color: #333;
+}
+.calendar #year
+{
+	margin-top: 20px;
+	font-size: 50px;
+	font-weight: 300;
+	color: #999;
+}
